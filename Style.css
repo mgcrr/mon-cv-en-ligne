@@ -1,0 +1,20 @@
+.FondTransparent{ background-color: rgba(247, 249, 249, 40%); border: 2px solid rgb(247, 249, 249); margin-left: 10%; margin-right: 10%;}
+h1 {text-align: left; color:#000; font-size: 35px;}	/* ceci est mon titre */
+.MaCouleurDeTitre{color: #000}
+p {text-align: left; color: #000}
+h2 {text-align: center; color:#000; font-size: 32px;}	/* ceci est le sous-titre */
+h3 {text-align: center; color:#000; font-size: 22px; border: 2px solid #000; margin-left: 30%; margin-right: 30%;}	/* ceci est le volet formation */
+body {font-family:Times;}	/* ceci est le corp du site où l'on pourra integrer les paragraphe ainsi que les photos et liens */
+.MaPageDeFond{background: url(image/photo.webp) center no-repeat; background-size: cover; background-attachment: fixed}
+.MaCouleurDeBody{color: #fff;}
+
+/* Bien respecter l'ordre des "a:" pour que cela fonctionne */
+a:link {font-weight: bold; color:#000; text-decoration: none;}				/*couleur du lien*/
+a:visited {color:#B3B6B7; text-decoration: underline;}						/*couleur du lien visiter*/
+a:hover {color:#FFf; text-decoration: underline;}							/*couleur du lien en survol*/
+a:active {color:#0BFFFD; text-decoration: none;}							/*couleur du lien au moment du clic*/
+.debut{float: left;}
+li {font-family: Times; font-weight: bold; color: #000;}
+.li1{margin-top: 0.5px; list-style-type: none;}
+
+img{float: left; margin-top: 5%; margin-right: 5%; margin-bottom: 5%; margin-left: 450px; width: 144px; height: 225px;}
